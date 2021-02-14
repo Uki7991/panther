@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container {
+    width: 150%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#background_video {
+    left: 50%;
+    position: absolute;
+    height: 100%;
+    transform: translate(-60%, -10%);
+}
