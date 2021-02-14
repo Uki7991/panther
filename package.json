@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss ./src/app.css -o ./public/app.css",
-    "prod": "NODE_ENV=production postcss ./src/app.css -o ./public/app.css"
+    "dev": "postcss ./src/app.css -o ./docs/app.css",
+    "prod": "NODE_ENV=production postcss ./src/app.css -o ./docs/app.css"
   },
   "keywords": [],
   "author": "",
